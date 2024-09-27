@@ -1,1 +1,0 @@
-# tecnoll_git
