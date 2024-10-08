@@ -1,0 +1,134 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0.3px;
+}
+
+body > header {
+    background-color: #2f2f2f ;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;   
+    }
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+header li a {
+    color: #fcfcfc;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+section{
+    padding: 16px 0;
+}
+
+section h2, .articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: rgb(44, 158, 23);
+    color:#fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a{
+    background-color: green;
+}
+#economy {
+    background-color: #e3e089;
+}
+#economy .articles article a{
+    background-color: #ff9f1a;
+}
+
+/*Seções adicionadas para o exercício*/
+
+#technology {
+    background-color: rgb(157, 217, 217);
+}
+#technology .articles article a {
+    background-color: rgb(111, 51, 143);
+}
+#entertainment {
+    background-color: rgb(227, 170, 134);
+}
+#entertainment .articles article a {
+    background-color: rgb(141, 19, 102);
+}
+
+/*Adicionando o link Home em cada seção para facilitar volta ao início do conteúdo.
+Se essa não for a forma correta de fazer isso, por favor me avise!*/
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content:first baseline
+}
+
+.title-container h2 {
+    margin-right: 20px;
+}
+
+.title-container a {
+    text-decoration: none;
+    color: #13096c;
+}
